@@ -1,0 +1,25 @@
+el proyecto inicial (hasta 2019; contiene ideas extra: capa de poligonos, etc):
+https://github.com/derekeder/FusionTable-Map-Template
+
+DEPRECTATED project de la capa con poligonos:
+https://github.com/JackDougherty/fusion-point-polygon-list
+
+el proyecto con turf (despues de 2019):
+https://github.com/HandsOnDataViz/searchable-map-template-csv
+
+ejemplo funcional (hospitales de Chicago):
+https://searchable-map-template-csv.netlify.app/
+
+no autocompletion in nominatin (names search of OSM):
+https://gis.stackexchange.com/questions/120570/how-to-implement-place-auto-complete-using-nominatim
+
+If you’re looking to use Pelias with a Leaflet map, check out the geocoder options in the Mapzen JavaScript SDK.
+Contribute (found here:
+https://www.mapzen.com/products/search/geocoding/?lng=-73.98050&lat=40.72590&zoom=12
+
+parece q la solución es esta:
+https://github.com/location-iq/leaflet-geocoder
+
+parece q si no conseguimos cambiar de Google a OpenStreetMaps podemos conformarnos con esta cutrez:
+https://www.zerone-consulting.com/resources/blog/integrating-openstreetmap-to-your-website/
+We can embed OpenStreetMap tiles as a layer within a Google Map. In this case, we will be using Google Maps JavaScript library for displaying OpenStreetMap. This is useful when you making a transition from Google Map to OpenStreetMap and you have invested a lot in building a Google Maps interface. Here, you just need to swap Google map tiles with OpenStreetMap tiles. The below code shows how we can swap the tiles.
